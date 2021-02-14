@@ -64,6 +64,6 @@ RUN apt-get update \
 
 #########################CHANGES TO THE ORIGINAL#########################
 
-COPY /src /src
+ADD /src /src
 WORKDIR /src
 RUN Rscript libs.R
